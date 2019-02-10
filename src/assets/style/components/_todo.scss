@@ -6,40 +6,127 @@
   font-family: 'starjedi';
   letter-spacing: 5px;
   position: relative;
-  background-color: #0d0d0d;
-  color: #ffe635;
+  background-color: $todo-bg;
+  color: $primary;
 
   &__bg {
     height: 100%;
     width: 100%;
-    background-image: url('../images/loren.png');
+    background-image: url('#{$todoPath}/loren.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-position-x: 70%;
+    position: absolute;
     z-index: 1;
   }
 
   &__title {
     font-family: 'starjhol';
-    font-size: 64px;
+    font-size: 32px;
     text-align: center;
+    padding: 5rem 0 0 0;
+    z-index: 2;
   }
 
   &__form {
     text-align: center;
     z-index: 2;
+    margin: 0 0 15px 0;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 2px solid $primary;
+    padding: 15px 10px;
+    color: $primary;
+    letter-spacing: 2px;
+    margin: 0 0 15px 0;
+
+    &::placeholder {
+      color: $primary-opc;
+    }
+
+    &:focus {
+      outline: none;
+      color: $primary;
+    }
+  }
+
+  &__btn {
+    border: 2px solid $primary;
+    border-left: transparent;
+    background: $primary;
+    padding: 15px 10px;
+    transition: 0.5s;
+    color: $dark;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+    &:hover {
+      background: $dark;
+      color: $primary;
+    }
+
+    &:focus {
+      outline: none;
+    }
   }
 
   &__item {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 0 15px 0;
 
     &--remove {
-      background-image: url('../images/jedi-saber.png');
-      background-size: cover;
-      width: 40px;
-      height: 40px;
-      z-index: 3;
+      margin: 0 0 0 15px;
+      position: relative;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &::before {
+        content: '';
+        background-image: url('#{$todoPath}/jedi-saber.png');
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        background-image: url('#{$todoPath}/jedi-saber.png');
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    &__bg {
+      background-repeat: repeat-x;
+      background-position: bottom left;
+      background-position-x: 30%;
+    }
+
+    &__title {
+      font-size: 64px;
+    }
+
+    &__form {
+      margin: 0 0 15px 0;
+    }
+
+    &__input {
+      padding: 15px;
+      margin: 0;
+    }
+    &__btn {
+      padding: 15px;
     }
   }
 }

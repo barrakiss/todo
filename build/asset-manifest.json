@@ -1,14 +1,15 @@
 {
-  "main.css": "/todo/static/css/main.1f36a61c.chunk.css",
-  "main.js": "/todo/static/js/main.c4072a68.chunk.js",
-  "main.js.map": "/todo/static/js/main.c4072a68.chunk.js.map",
-  "static/js/1.b6086ac6.chunk.js": "/todo/static/js/1.b6086ac6.chunk.js",
-  "static/js/1.b6086ac6.chunk.js.map": "/todo/static/js/1.b6086ac6.chunk.js.map",
+  "main.css": "/todo/static/css/main.8189011f.chunk.css",
+  "main.js": "/todo/static/js/main.3b697a16.chunk.js",
+  "main.js.map": "/todo/static/js/main.3b697a16.chunk.js.map",
+  "static/js/1.5d135a70.chunk.js": "/todo/static/js/1.5d135a70.chunk.js",
+  "static/js/1.5d135a70.chunk.js.map": "/todo/static/js/1.5d135a70.chunk.js.map",
   "runtime~main.js": "/todo/static/js/runtime~main.8a695b30.js",
   "runtime~main.js.map": "/todo/static/js/runtime~main.8a695b30.js.map",
-  "static/css/main.1f36a61c.chunk.css.map": "/todo/static/css/main.1f36a61c.chunk.css.map",
+  "static/media/star-wars.mp3": "/todo/static/media/star-wars.719ec993.mp3",
   "static/media/App.scss": "/todo/static/media/Starjedi.cc3019aa.ttf",
+  "static/css/main.8189011f.chunk.css.map": "/todo/static/css/main.8189011f.chunk.css.map",
   "index.html": "/todo/index.html",
-  "precache-manifest.7465d162427e87110bd12493b865a971.js": "/todo/precache-manifest.7465d162427e87110bd12493b865a971.js",
+  "precache-manifest.0ea5b5fc01a6e685683bfc9a46189655.js": "/todo/precache-manifest.0ea5b5fc01a6e685683bfc9a46189655.js",
   "service-worker.js": "/todo/service-worker.js"
 }

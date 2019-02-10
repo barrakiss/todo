@@ -13,7 +13,7 @@ class CustomParticles extends Component {
           params={{
             particles: {
               number: {
-                value: 100,
+                value: 250,
                 density: {
                   enable: true,
                   value_area: 1500
@@ -28,7 +28,7 @@ class CustomParticles extends Component {
                 speed: 0.1
               },
               size: {
-                value: 2
+                value: 1
               },
               opacity: {
                 anim: {

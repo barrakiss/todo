@@ -1,0 +1,49 @@
+#music {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  left: 30px;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 230, 53, 0.6);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 20px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes pulse-mute {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(249, 92, 97, 0.6);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 20px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.music-mute {
+  background-image: url('#{$musicPath}/mute.png');
+  animation: pulse-mute 2s infinite;
+}
+
+.music-unmute {
+  background-image: url('#{$musicPath}/unmute.png');
+  animation: pulse 2s infinite;
+}

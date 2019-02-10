@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React, { Component } from 'react';
-// import saber from '../../assets/images/jedi-saber.png';
+import Music from '../../components/Music';
 
 class TodoApp extends React.Component {
   constructor(props) {
@@ -14,21 +14,25 @@ class TodoApp extends React.Component {
   render() {
     return (
       <div className="todo">
-        <div className="todo__bg">
-          <h1 className="todo__title">imperial todo</h1>
-          <form onSubmit={this.handleSubmit} className="todo__form">
-            <label htmlFor="new-todo">What needs to be done?</label>
-            <div>
-              <input
-                id="new-todo"
-                onChange={this.handleChange}
-                value={this.state.text}
-              />
-              <button>Add #{this.state.items.length + 1}</button>
-            </div>
-          </form>
-          <TodoList items={this.state.items} handleRemove={this.handleRemove} />
-        </div>
+        <div className="todo__bg" />
+        <h1 className="todo__title">imperial todo</h1>
+        <form onSubmit={this.handleSubmit} className="todo__form">
+          <label htmlFor="new-todo" />
+          <div>
+            <input
+              className="todo__input"
+              placeholder="What needs to be done?"
+              id="new-todo"
+              onChange={this.handleChange}
+              value={this.state.text}
+            />
+            <button className="todo__btn">
+              <span>mission {this.state.items.length + 1}</span>
+            </button>
+          </div>
+        </form>
+        <TodoList items={this.state.items} handleRemove={this.handleRemove} />
+        <Music />
       </div>
     );
   }
@@ -62,18 +66,10 @@ class TodoApp extends React.Component {
 class TodoList extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{ zIndex: 3 }}>
         {this.props.items.map(item => (
           <div className="todo__item" key={item.id}>
             <span>{item.text}</span>
-            {/* <img
-              className="todo__item--remove"
-              src={saber}
-              alt="jedi saber"
-              onClick={() => {
-                this.props.handleRemove(item.id);
-              }}
-            /> */}
             <div
               className="todo__item todo__item--remove"
               onClick={() => {
