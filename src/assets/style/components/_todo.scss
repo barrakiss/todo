@@ -5,6 +5,18 @@
   align-items: center;
   font-family: 'starjedi';
   letter-spacing: 5px;
+  position: relative;
+  background-color: #0d0d0d;
+  color: #ffe635;
+
+  &__bg {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/loren.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+  }
 
   &__title {
     font-family: 'starjhol';
@@ -12,9 +24,22 @@
     text-align: center;
   }
 
-  background-color: #0d0d0d;
-  color: #ffe635;
-  background-image: url('../images/loren.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
+  &__form {
+    text-align: center;
+    z-index: 2;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--remove {
+      background-image: url('../images/jedi-saber.png');
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      z-index: 3;
+    }
+  }
 }

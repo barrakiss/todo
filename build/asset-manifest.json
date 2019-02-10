@@ -1,14 +1,14 @@
 {
-  "main.css": "/todo/static/css/main.67bf2fe7.chunk.css",
-  "main.js": "/todo/static/js/main.5e5109f9.chunk.js",
-  "main.js.map": "/todo/static/js/main.5e5109f9.chunk.js.map",
-  "static/js/1.c9ef396f.chunk.js": "/todo/static/js/1.c9ef396f.chunk.js",
-  "static/js/1.c9ef396f.chunk.js.map": "/todo/static/js/1.c9ef396f.chunk.js.map",
+  "main.css": "/todo/static/css/main.1f36a61c.chunk.css",
+  "main.js": "/todo/static/js/main.c4072a68.chunk.js",
+  "main.js.map": "/todo/static/js/main.c4072a68.chunk.js.map",
+  "static/js/1.b6086ac6.chunk.js": "/todo/static/js/1.b6086ac6.chunk.js",
+  "static/js/1.b6086ac6.chunk.js.map": "/todo/static/js/1.b6086ac6.chunk.js.map",
   "runtime~main.js": "/todo/static/js/runtime~main.8a695b30.js",
   "runtime~main.js.map": "/todo/static/js/runtime~main.8a695b30.js.map",
-  "static/css/main.67bf2fe7.chunk.css.map": "/todo/static/css/main.67bf2fe7.chunk.css.map",
+  "static/css/main.1f36a61c.chunk.css.map": "/todo/static/css/main.1f36a61c.chunk.css.map",
   "static/media/App.scss": "/todo/static/media/Starjedi.cc3019aa.ttf",
   "index.html": "/todo/index.html",
-  "precache-manifest.ae1f7aa25f6d2c7463abcfb83b0760ce.js": "/todo/precache-manifest.ae1f7aa25f6d2c7463abcfb83b0760ce.js",
+  "precache-manifest.7465d162427e87110bd12493b865a971.js": "/todo/precache-manifest.7465d162427e87110bd12493b865a971.js",
   "service-worker.js": "/todo/service-worker.js"
 }
