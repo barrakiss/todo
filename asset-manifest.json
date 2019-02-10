@@ -1,7 +1,7 @@
 {
   "main.css": "/todo/static/css/main.45a8f59e.chunk.css",
-  "main.js": "/todo/static/js/main.67c72237.chunk.js",
-  "main.js.map": "/todo/static/js/main.67c72237.chunk.js.map",
+  "main.js": "/todo/static/js/main.ff37a613.chunk.js",
+  "main.js.map": "/todo/static/js/main.ff37a613.chunk.js.map",
   "static/js/1.1572571a.chunk.js": "/todo/static/js/1.1572571a.chunk.js",
   "static/js/1.1572571a.chunk.js.map": "/todo/static/js/1.1572571a.chunk.js.map",
   "runtime~main.js": "/todo/static/js/runtime~main.8a695b30.js",
@@ -10,6 +10,6 @@
   "static/media/App.scss": "/todo/static/media/Starjedi.cc3019aa.ttf",
   "static/css/main.45a8f59e.chunk.css.map": "/todo/static/css/main.45a8f59e.chunk.css.map",
   "index.html": "/todo/index.html",
-  "precache-manifest.e547b0bf7b204633b1540542fd1c9998.js": "/todo/precache-manifest.e547b0bf7b204633b1540542fd1c9998.js",
+  "precache-manifest.255bcbaa2aebe63c1eb4eddefb9c2e31.js": "/todo/precache-manifest.255bcbaa2aebe63c1eb4eddefb9c2e31.js",
   "service-worker.js": "/todo/service-worker.js"
 }
