@@ -1,0 +1,14 @@
+@import 'src/assets/style/base/_custom.scss';
+@import 'src/assets/style/components/_todo.scss';
+
+@font-face {
+  font-family: 'starjedi';
+  src: local('starjedi'),
+    url('../../fonts/star_wars/Starjedi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'starjhol';
+  src: local('starjhol'),
+    url('../../fonts/star_wars/Starjhol.ttf') format('truetype');
+}
